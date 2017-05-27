@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="" href="style1.css">
+</head>
+
+<body>
+    <section id="section1">
+        <img src="http://placehold.it/100x100" alt="">
+        <div class="tags">
+            <span>标签1</span>
+            <span>标签2</span>
+            <span>标签3</span>
+            <span>标签4</span>
+        </div>
+
+    </section>
+    <section id="section2">
+        <h2>文字文字文字</h2>
+        <h2>文字文字文字</h2>
+        <p>文字文字文字文字文字文字</p>
+        <p>文字文字文字文字文字文字</p>
+    </section>
+    <script>
+        var width = document.documentElement.clientWidth
+        var css = `
+          html{
+            font-size: ${width / 10* window.devicePixelRatio}px;
+          }
+          `
+        document.write(`<style>${css}</style>`)
+
+        var scale = 1 / window.devicePixelRatio
+        document.write(`
+          <meta name="viewport" content="initial-scale=${scale},maximum-scale=${scale},minimum-scale=${scale},user-scalable=no"
+        `)
+    </script>
+</body>
+
+</html>

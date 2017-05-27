@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 0.5rem; }
+
+#section1 {
+  text-align: center;
+  border-bottom: 1px solid red; }
+
+#section1 img {
+  width: 1.875rem;
+  margin-top: 1.09375rem;
+  margin-bottom: 0.9375rem;
+  border-radius: 50%; }
+
+#section1 .tags {
+  display: flex;
+  justify-content: space-around; }
+
+#section1 .tags span {
+  background: #EFEFEF;
+  width: 1.875rem;
+  line-height: 0.9375rem;
+  height: 0.9375rem;
+  margin: 0 0 0.46875rem; }
+
+#section2 {
+  background: #EFEFEF;
+  text-align: center;
+  padding: 0.75rem 0 0.75rem; }
+
+#section2 h2 {
+  background: #d8d8d8;
+  display: inline-block;
+  width: 6.25rem;
+  margin: 0 0 0.625rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  border-radius: 0.3125rem; }
+
+#section2 p {
+  background: #E8E8E8;
+  width: 6.25rem;
+  display: inline-block;
+  margin: 0 0 0.625rem;
+  height: 0.75rem;
+  line-height: 0.75rem;
+  border-radius: 0.3125rem; }
+
+/*# sourceMappingURL=style1.css.map */
